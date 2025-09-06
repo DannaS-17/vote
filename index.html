@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro y Votación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registra el Nombre de tu Grupo</h1>
+        <form id="group-form">
+            <input type="text" id="group-name" placeholder="Escribe el nombre del grupo" required>
+            <button type="submit">Enviar Nombre</button>
+        </form>
+        <p id="message"></p>
+        <div id="results-container" style="display: none;">
+            <h2>Resultados</h2>
+            <ul id="results-list"></ul>
+        </div>
+        <button id="show-results-btn" style="display: none;">Mostrar Resultados</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
